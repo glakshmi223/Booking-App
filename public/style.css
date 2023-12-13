@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(185, 194, 195);
+}
+
+h1{
+    text-shadow: 2px 2px 8px rgb(240, 121, 9);
+    font-family: serif;
+    margin:10px;
+    text-align:center;
+    font-style:italic;
+
+}
+
+.seat {
+    background-color:rgb(236, 167, 64);
+    height: 30px;
+    width: 35px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.seat.selected {
+    background-color: rgba(19, 2, 54, 0.781);
+}
+
+.seat.occupied {
+    background-color: rgb(220, 89, 89);
+}
+
+.seat:nth-child(4n) {
+    margin-right: 20px;
+}
+
+.screen {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    margin: 15px -15px;
+    transform: perspective(400px) rotateX(-45deg);
+}
